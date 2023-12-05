@@ -1,5 +1,5 @@
 FROM openjdk
 WORKDIR /application
-COPY ahmed.java .
-RUN javac ahmed.java
-CMD java ahmed
+COPY ahmedkhalid.java .
+RUN javac ahmedkhalid.java
+CMD java ahmedkhalid
